@@ -1,4 +1,7 @@
 package com.agro.marketplace.repositories;
 
-public interface EspacoFisicoRepository{
+import com.agro.marketplace.entities.EspacoFisico;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EspacoFisicoRepository extends JpaRepository<EspacoFisico, Long> {
 }
